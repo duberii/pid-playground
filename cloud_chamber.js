@@ -24,6 +24,7 @@ function setup() {
 }
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);
+    background(34, 35, 52);
 }
 function mouseClicked() {
     background(34, 35, 52);
