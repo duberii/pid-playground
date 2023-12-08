@@ -207,17 +207,33 @@
         <div class="card-body" style="font-size: 24px;">
           PARTICLE IDENTIFICATION METHODS
         </div>
-        <p>These activities may be completed in any order. Feel free to pick the activities corresponding to detectors in your experiment.</p>
+        <p>These activities may be completed in any order. Feel free to pick the activities corresponding to detectors in your experiment. For multi-part notebooks, be sure to complete part a before part b.</p>
       </div>
       <div class="card border-danger" style="max-width: 900px; margin: 0 auto;">
-        <h5 class="card-header">7. Drift Chambers and Ionization Energy Loss</h5>
+        <h5 class="card-header">7a. Drift Chambers and Tracks</h5>
         <div class="card-body">
           <p class="card-text">
             <b>By the end of this notebook, you should be able to:</b>
           <ul>
             <li> Describe the role of drift chambers in a particle detector</li>
-            <li> Name the effects that cause different particles to lose different amounts of energy in drift chambers
-            </li>
+            <li> Define tracks and hits</li>
+            <li> Identify which particles leave tracks</li>
+            <li> Use individual hits to determine the position of a track</li>
+            <li> Find the momentum and charge of a particle based on the curvature of a track</li>
+          </ul>
+          </p>
+          <a href="https://colab.research.google.com/github/duberii/pid-playground/blob/main/activities/Drift_Chambers.ipynb"
+            target="_blank" class="btn btn-primary btn-block" style="width:90%;margin:0 auto;text-wrap:break-word;white-space:normal;">Click here to launch Google Colab</a>
+        </div>
+      </div>
+      <br>
+      <div class="card border-danger" style="max-width: 900px; margin: 0 auto;">
+        <h5 class="card-header">7b. Ionization Energy Loss</h5>
+        <div class="card-body">
+          <p class="card-text">
+            <b>By the end of this notebook, you should be able to:</b>
+          <ul>
+            <li> Name the effects that cause different particles to lose different amounts of energy in drift chambers</li>
             <li> Demonstrate the separation power of dE/dx analysis using ROOT’s TH2D class </li>
             <li> Classify different charged particles based on their energy loss at fixed momentum </li>
           </ul>
