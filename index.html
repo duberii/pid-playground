@@ -295,18 +295,49 @@
       </div>
       <div class="card text-center text-white" style="padding-top: 20px; background-color:rgba(34, 35, 52,0.7);" id="activities">
         <div class="card-body" style="font-size: 24px;">
-          DATA FORMATTING
+          ADVANCED TOPICS
         </div>
+        <p>Although these notebooks don't describe well-established PID methods, these notebooks will introduce you to several important topics in PID. These activities should be completed in order.</p>
       </div>
       <div class="card border-danger" style="max-width: 900px; margin: 0 auto;">
-        <h5 class="card-header">11. Putting it All Together</h5>
+        <h5 class="card-header">11. Working with Experimental Data</h5>
         <div class="card-body">
           <p class="card-text">
             <b>By the end of this notebook, you should be able to:</b>
           <ul>
-            <li> List the goals of reconstruction</li>
-            <li> Use multiple PID methods to classify stable particles</li>
-            <li> Create and save datasets with information relevant to reconstruction </li>
+            <li> Recognize common elements of the data produced by particle physics detectors</li>
+            <li> Implement PID methods as functions that can be used on experimental data</li>
+          </ul>
+          </p>
+          <a href="https://colab.research.google.com/github/duberii/pid-playground/blob/main/activities/Working_with_Experimental_Data.ipynb"
+            target="_blank" class="btn btn-primary btn-block" style="width:90%;margin:0 auto;text-wrap:break-word;white-space:normal;">Click here to launch Google Colab</a>
+        </div>
+      </div>
+      <br>
+      <div class="card border-danger" style="max-width: 900px; margin: 0 auto;">
+        <h5 class="card-header">12. Confusion Matrices</h5>
+        <div class="card-body">
+          <p class="card-text">
+            <b>By the end of this notebook, you should be able to:</b>
+          <ul>
+            <li> Interpret confusion matrices</li>
+            <li> Create confusion matrices from estimator functions</li>
+            <li> Identify common trends in confusion matrices</li>
+          </ul>
+          </p>
+          <a href="https://colab.research.google.com/github/duberii/pid-playground/blob/main/activities/Confusion_Matrices.ipynb"
+            target="_blank" class="btn btn-primary btn-block" style="width:90%;margin:0 auto;text-wrap:break-word;white-space:normal;">Click here to launch Google Colab</a>
+        </div>
+      </div>
+      <br>
+      <div class="card border-danger" style="max-width: 900px; margin: 0 auto;">
+        <h5 class="card-header">13. Comparing PID Methods</h5>
+        <div class="card-body">
+          <p class="card-text">
+            <b>By the end of this notebook, you should be able to:</b>
+          <ul>
+            <li> Compare PID methods based on their confusion matrices</li>
+            <li> Use multiple PID methods to classify particles</li>
           </ul>
           </p>
           <a target="_blank" class="btn btn-primary btn-block" style="width:90%;margin:0 auto;text-wrap:break-word;white-space:normal;color:white;">Coming Soon</a>
@@ -314,7 +345,7 @@
       </div>
       <br>
       <div class="card border-danger" style="max-width: 900px; margin: 0 auto;">
-        <h5 class="card-header">12. Machine Learning Methods</h5>
+        <h5 class="card-header">14. Machine Learning Methods</h5>
         <div class="card-body">
           <p class="card-text">
             <b>By the end of this notebook, you should be able to:</b>
@@ -322,9 +353,21 @@
             <li> Describe the advantages and shortcomings of manual PID methods </li>
             <li> Explain the complementary advantages and disadvantages of machine learning </li>
             <li> Create and train a TensorFlow boosted decision tree </li>
-            <li> Compare between the separation power of the boosted decision tree and the separation power of manual
-              PID
-              methods </li>
+            <li> Compare between the separation power of the boosted decision tree and the separation power of manual PID methods </li>
+          </ul>
+          </p>
+          <a target="_blank" class="btn btn-primary btn-block" style="width:90%;margin:0 auto;text-wrap:break-word;white-space:normal;color:white;">Coming Soon</a>
+        </div>
+      </div>
+      <br>
+      <div class="card border-danger" style="max-width: 900px; margin: 0 auto;">
+        <h5 class="card-header">15. Bias in Machine Learning Models</h5>
+        <div class="card-body">
+          <p class="card-text">
+            <b>By the end of this notebook, you should be able to:</b>
+          <ul>
+            <li> Define bias and overfitting</li>
+            <li> Identify signs of overfitting and bias in machine learning models</li>
             <li> Implement practices to minimize bias when training a machine learning model </li>
           </ul>
           </p>
@@ -333,19 +376,10 @@
       </div>
       <br>
       <div class="card border-danger" style="max-width: 900px; margin: 0 auto;">
-        <h5 class="card-header">13. Publicly Available Data </h5>
+        <h5 class="card-header">16. GlueX Data </h5>
         <div class="card-body">
           <p class="card-text">
-            Unlike other notebooks on this page, this notebook exists to provide tools to convert publicly available
-            data into a format that is compatible with the methods of the previous activities. Compatible experiments
-            include:
-          <ul>
-            <li> ALICE</li>
-            <li> ATLAS</li>
-            <li> CMS</li>
-            <li> GlueX</li>
-            <li> LHCb </li>
-          </ul>
+            Unlike other notebooks on this page, this notebook exists to provide tools to convert GlueX experimental data into a dataframe, which can be used with the functions you wrote in previous activities.
           </p>
           <a target="_blank" class="btn btn-primary btn-block" style="width:90%;margin:0 auto;text-wrap:break-word;white-space:normal;color:white;">Coming Soon</a>
         </div>
